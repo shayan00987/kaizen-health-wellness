@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -6,6 +7,9 @@
 <meta name="description" content="Kaizen Health and Wellness — personalized longevity, performance and wellness programs.">
 <title>Kaizen Health & Wellness | Better Health Today. Longer Tomorrow.</title>
 <link rel="stylesheet" href="styles.css">
+
+<!-- Kaizen FAQ Chatbot Styles -->
+<link rel="stylesheet" href="chatbot.css">
 </head>
 <body>
 <header class="site-header" id="top">
@@ -126,6 +130,11 @@
 
 <div class="modal" id="bookingModal" aria-hidden="true"><div class="modal-box"><button class="modal-close" aria-label="Close">×</button><p class="eyebrow blue">KAIZEN CONSULTATION</p><h2>Book Your Consultation</h2><p>Tell us a little about your goals and the team will get back to you.</p><form id="bookingForm"><label>Name<input required name="name" placeholder="Your name"></label><label>Phone<input required name="phone" placeholder="03XX XXXXXXX"></label><label>Interested in<select name="service"><option>General Wellness Consultation</option><option>Peptide Therapy</option><option>Longevity Program</option><option>Performance & Recovery</option><option>Weight Management</option></select></label><label>Message<textarea name="message" placeholder="Tell us about your goals"></textarea></label><button class="btn btn-blue" type="submit">Send Request <span>→</span></button></form><p class="form-note">Demo form — connect it to your preferred booking/CRM endpoint before launch.</p></div></div>
 <div class="toast" id="toast">Thanks — your consultation request is ready to be connected.</div>
+
+<!-- Existing website JavaScript -->
 <script src="script.js"></script>
+
+<!-- Kaizen FAQ Chatbot JavaScript -->
+<script src="chatbot.js"></script>
 </body>
 </html>
